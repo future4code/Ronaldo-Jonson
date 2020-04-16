@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(255, 255, 255, 0.856);
+}
+
+h2{
+    background-color: #32292f;
+    color:  rgba(255, 255, 255, 0.856);
+    padding: 2vh;
+}
+
+form{
+    padding: 2vh;
+}
+
+#image{
+    height: 40vh;
+    width: 20vw;
+}
+
+#button{
+    width: 5vw;
+    background-color: #32292f;
+    color: rgba(255, 255, 255, 0.856);
+}
