@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h2{
+    background-color: #32292f;
+    color:  rgba(255, 255, 255, 0.856);
+    padding: 2vh;
+}
+
+ol{
+    padding: 5vh 50vw;
+}
+
+p, h4{
+    display: inline;
+}
+
+.padding-top{
+    padding: 1vh 0;
+}
