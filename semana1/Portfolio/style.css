@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#landing-img{
+    width: 99vw;
+}
+
+h1{
+    font-size: 62px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+    color: #0c2e5b;
+}
+
+p{
+    color: black;
+}
+
+#gradient{
+    background-color: #6ea3d4;
+}
+
+#menu{
+    background-color: #86e6eb;
+    width: 99vw;
+    height: 5vh;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#portrait{
+    width: 20vw;
+    transform: translate(0, -20vh);
+}
+
+li{
+    display: flex;
+}
+
+#about-me{
+    height:  60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me > h3, h1{
+    color: white;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content > input{
+    width: 33vw;
+}
+
+#education{
+    background-color: white;
+    height: 75vh;
+}
+
+#education > h1{
+    color: black;
+}
+
+#education > div{
+    color: black;
+}
+
+#education > h3{
+    color: black;
+}
+
+#education > h1{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-to-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-to-center > div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.flex-to-center > h5{
+    font-weight: normal;
+}
+
+#personal{
+    background-color: black;
+    height: 75vh;
+}
+
+footer{
+    background-color: #6ea3d4;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
