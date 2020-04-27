@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+header{
+    display: flex;
+    height: 5vh;
+}
+
+#DarkGreen{
+    background-color: green;
+
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#yellow{
+    background-color: yellow;
+
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Pink{
+    background-color: magenta;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items{
+    display: flex;
+}
+
+#Blue{
+    background-color: blue;
+
+    height: 30vh;
+    width: 50vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#White{
+    background-color: white;
+
+    height: 30vh;
+    width: 25vw;
+}
+
+#IRed_Green{
+    display: flex;
+    flex-direction: column;
+}
+
+#Red{
+    background-color: red;
+    
+    height: 15vh;
+    width: 25vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Green{
+    background-color: lightgreen;
+
+    height: 15vh;
+    width: 25vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: purple;
+
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
