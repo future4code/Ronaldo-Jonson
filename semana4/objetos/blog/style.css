@@ -1,0 +1,16 @@
+#content{
+    display: flex;
+}
+
+#Timeline{
+    background-color: aqua;
+    width: 50vw;
+    height: 100vh;
+}
+
+article{
+    background-color: azure;
+    margin: 0% auto;
+    width: 30vw;
+    height: 20vh;
+}
