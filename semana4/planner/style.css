@@ -1,0 +1,106 @@
+/* General Contente */
+*{
+    padding: 0%;
+    margin: 0%;
+    border-color: slateblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#content{
+    background-color: slateblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: auto;
+    width: 100vw;
+    height: 150vh;
+}
+
+/* Planner */
+
+#planner{
+    background-color: rgb(220, 220, 250);
+    position: relative;
+    margin: 30px auto;
+    width: 90vw;
+    height: 90vh;
+}
+
+#planner > h2{
+    padding-top: 1%;
+    margin: 0% 2%;
+}
+
+/* Week Slots */
+
+#weeks{
+    display: flex;
+    justify-content: space-evenly;
+    height: 97%;
+    margin: 0% 2%;
+}
+
+.week-slot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    width: 90%;
+    height: 95%;
+    border-left-style: solid;
+}
+
+.week-slot:first-child{
+    border-left-style: none;
+}
+
+/* Week Slot Titles*/
+
+.title{
+    width: 100%;
+    border-bottom-style: solid;
+}
+
+.title > h3{
+    margin-left: 3%;
+}
+
+/* Week Slot Items*/
+
+.items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: .9;
+}
+
+#menu{
+    margin: auto;
+    width: 60vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu-title{
+    display: flex;
+}
+
+#menu-title > p{
+    margin: 10px 60px;
+}
+
+#menu-title > input{
+    width: 25vw;
+}
+
+#checkBoxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkBox{
+    width: 5vw;
+}
