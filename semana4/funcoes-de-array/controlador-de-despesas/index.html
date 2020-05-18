@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="class">
+        <section id="input">
+            <h3>Controlador de despesas</h3>
+            <form>
+                <label for="valueName">Custo</label>
+                <input type="text" name="valueName" id="cost">
+                <label for="typeName">Tipo</label>
+                <input type="text" name="typeName" id="type">
+                <label for="descriptionName">Descrição</label>
+                <input type="text" name="descriptionName" id="description">
+                <input type="button" value="Adicionar" id="Submit" onclick="MakeNewPayment()">
+            </form>
+        </section>
+        <section id="expenses">                                             
+            <h3>Despesas</h3>
+            <div>
+                <form>
+                    <label for="Casa">Casa</label>
+                    <input type="checkbox" name="Casa" id="Casa" class="checkBox" onclick="FilterList()">
+                    <label for="Trabalho">Trabalho</label>
+                    <input type="checkbox" name="Trabalho" id="Trabalho" class="checkBox" onclick="FilterList()">
+                    <label for="Comida">Comida</label>
+                    <input type="checkbox" name="Comida" id="Comida" class="checkBox" onclick="FilterList()">
+                    <label for="Entreterimento">Entreterimento</label>
+                    <input type="checkbox" name="Entreterimento" id="Entreterimento" class="checkBox" onclick="FilterList()">
+                    <label for="Outros">Outros</label>
+                    <input type="checkbox" name="Outros" id="Outros" class="checkBox" value="teste" onclick="FilterList()">
+                </form>
+                <h4 id="expenseTable">
+                </h4>
+            </div>
+        </section>
+        <section id="Extract">
+            <h3>Extrato</h3>
+            <div id="extractTable">
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
