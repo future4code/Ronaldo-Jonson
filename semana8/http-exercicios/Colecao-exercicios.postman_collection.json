@@ -82,7 +82,12 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"string\", \r\n    \"artist\": \"string\",\r\n    \"url\": \"string\"\r\n}"
+					"raw": "{\r\n    \"name\": \"Slide\", \r\n    \"artist\": \"Goo Goo Dolls\",\r\n    \"url\": \"https://www.youtube.com/watch?v=yP4qdefD2To\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
 					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks",
@@ -101,7 +106,7 @@
 					"variable": [
 						{
 							"key": "playlistId",
-							"value": "0"
+							"value": "9994f7e1-c58c-49c3-b428-24e7c1804428"
 						}
 					]
 				}
@@ -136,7 +141,7 @@
 					"variable": [
 						{
 							"key": "playlistId",
-							"value": "0"
+							"value": "be56c95f-7ce2-436c-93dd-1db455a49635"
 						}
 					]
 				}
@@ -156,7 +161,12 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"string\" \r\n}"
+					"raw": "{\r\n    \"name\": \"string\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
 					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
