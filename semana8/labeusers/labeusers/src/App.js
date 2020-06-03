@@ -70,7 +70,7 @@ class App extends React.Component {
 
   RemoveUser = (id) => {
 
-    const url = `https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/:${id}`;
+    const url = `https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/${id}`;
 
     axios
     .delete(
