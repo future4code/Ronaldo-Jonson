@@ -1,5 +1,6 @@
 .post-container {
     border: 1px solid gray;
+    background-color: ghostwhite;
     width: 300px;
     margin-bottom: 10px;
 }
