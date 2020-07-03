@@ -38,14 +38,25 @@ const ContentPage = styled.div`
 `
 
 class App extends React.Component {
-
-  AddPost = () => {
-    const newPost = {
-      usuario: `TeSTE`,
-      fotoPost: `TeSTE`,
-      fotoUsuario: `TeSTE`
-    }  
-  }; 
+  state = {
+		Posts: [
+            {
+                nomeUsuario: 'Paulinha',
+                fotoUsuario: 'https://picsum.photos/50/50',
+                fotoPost: 'https://picsum.photos/200/200'
+            },
+            {
+                nomeUsuario: 'Caio',
+                fotoUsuario: 'https://picsum.photos/40/40',
+                fotoPost: 'https://picsum.photos/100/100'
+            },
+            {
+                nomeUsuario: 'Danvas',
+                fotoUsuario: 'https://picsum.photos/60/60',
+                fotoPost: 'https://picsum.photos/100/150'
+            }
+      ]
+  }
 
   render() {
     return (
