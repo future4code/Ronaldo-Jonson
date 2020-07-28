@@ -1,0 +1,19 @@
+{
+  "name": "ex1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "print-data": "tsc && node build/index.js",
+    "calculator": "tsc && node build/calculator.js",
+    "planner": "tsc && node build/planner.js",
+    "test": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.26",
+    "typescript": "^3.9.7"
+  }
+}
